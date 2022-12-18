@@ -1,6 +1,14 @@
 {
+  "homepage": "http://tatinho90.github.io/quizz",
   "dependencies": {
     "html-entities": "^2.3.3",
     "nanoid": "^4.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "scripts":{
+"predeploy": "npm run build",
+"deploy":"gh-pages -d build"
   }
 }
