@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+}
+.App {
+  text-align: center;
+  background-color: #F5F7FB;
+  height: 100vh;
+  width: 100vw;
+}
+img{
+height: 17vw;
+}
+.top-right{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.bottom-left{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.firstScreen{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  background-color: #4D5B9E;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.startButton{
+  font-size: 1.25rem;
+  width: 28vw;
+  max-width: 250px;
+  max-height: 55px;
+  height: 7vw;
+}
+.firstScreen > h1,h2{
+  color: #293264;
+}
+.firstScreen > h1{
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.firstScreen > h2{
+  font-weight: 400;
+  font-size: 1.15rem;
+  margin: 3vw;
+}
+.question-outer > h1 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #293264;
+  margin-bottom: 1.4vw;
+}
+.question-outer {
+  width: 58vw;
+  max-width: 650px;
+  padding-top: 1.4vw;
+  padding-bottom: 1.4vw;
+  border-bottom: 2px solid #DBDEF0;
+}
+.secondScreen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.answer-grid{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 0.6rem;
+}
+.questionFrame{
+border: 1px solid #4D5B9E;
+border-radius: 5rem;
+padding: 0.3rem;
+}
+.checker{
+  margin-top: 1.2vw;
+  font-size: 1.15rem;
+  width: 28vw;
+  max-width: 200px;
+  max-height: 40px;
+  height: 7vw;
+  padding-top: 0.4vw;
+  padding-bottom: 0.4vw;
+
+}
+input {
+  appearance: none;
+  cursor: pointer;
+  transition: all 200ms linear;
+
+}
+input:before {
+  width: 100%;
+  content: attr(label);
+  display: inline-block;
+  text-align: center;
+}
+input:checked{
+  background-color: #D6DBF5;
+}
+.flex-button{
+  display:grid;
+  grid-template-columns: 35% 65%;
+  gap: 25px;
+  margin-top: 1.2vw;
+}
+.answers{
+  font-size: 1.1rem;
+}
+.answers > a{
+  font-size: 2rem;
+  color: red;
+}

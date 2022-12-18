@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "html-entities": "^2.3.3",
+    "nanoid": "^4.0.0"
+  }
+}
