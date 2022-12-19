@@ -1,8 +1,9 @@
 {
-  "homepage": "http://tatinho90.github.io/quizz",
+  "homepage": "http://tatinho90.github.io/Quizz",
   "dependencies": {
     "html-entities": "^2.3.3",
-    "nanoid": "^4.0.0"
+    "nanoid": "^4.0.0",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
